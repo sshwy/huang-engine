@@ -2,6 +2,8 @@
 
 Huang Engine is an engine for web visual novel (namely gal game), which is currently still experimental.
 
+This project uses [js-yaml](https://github.com/nodeca/js-yaml), which licensed under MIT.
+
 ## Gettings Start
 
 Copy `engine.js` to your project's folder. Use 

@@ -1,5 +1,6 @@
 node_modules
 dist
 src/demo.js
+src/demo.html
 src/data.dump
 src/gameData.yaml
