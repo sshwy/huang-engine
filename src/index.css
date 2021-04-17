@@ -1,0 +1,92 @@
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+html {
+  font-size: 120%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#game-root {
+  max-width: 900px;
+  min-height: 675px;
+  border: 1px black solid;
+  margin: 0 auto;
+  padding: 1em;
+  position: relative;
+}
+
+.btn {
+  -moz-user-select:none; /*火狐*/
+  -webkit-user-select:none; /*webkit浏览器*/
+  -ms-user-select:none; /*IE10*/
+  -khtml-user-select:none; /*早期浏览器*/
+  user-select:none;
+  border: 1px solid black;
+  padding: .4em;
+  text-align: center;
+  transition: all 0.3s ease;
+  margin: 10px;
+}
+
+.btn:hover {
+  background: #e6e6e6;
+  cursor: pointer;
+}
+
+.game-title h1 {
+  display: inline-block;
+  font-size: 3.5em;
+}
+
+.game-title {
+  text-align: center;
+  margin: 20%
+}
+
+.game-version {
+  margin: 5px
+}
+
+.btn-group {
+  width: calc(100% - 2em);
+  position: absolute;
+  bottom: 1em;
+}
+
+.savedata-card {
+  -moz-user-select:none; /*火狐*/
+  -webkit-user-select:none; /*webkit浏览器*/
+  -ms-user-select:none; /*IE10*/
+  -khtml-user-select:none; /*早期浏览器*/
+  user-select:none;
+  border: 1px solid black;
+  margin: 8px;
+  padding: 6px;
+  width: calc(25% - 16px);
+  height: 100px;
+  float: left;
+}
+
+.savedata-card:hover {
+  cursor: pointer;
+}
+
+.savedata-container::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.empty-savedata {
+  color: #c6c6c6;
+}
+
+.side-menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
